@@ -4,12 +4,7 @@ function Card({name,check,fchange,bagla}) {
     <p>
       <input type="checkbox" checked={check}  onChange={fchange} />
       <span>{name}</span>
-
-      
-        <button onClick={bagla}>
-          <FaTimes   size={20}/>
-          </button>
-        
+      <FaTimes size={20} onClick={bagla}/>  
     </p>
   );
  
